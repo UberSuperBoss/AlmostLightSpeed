@@ -1,0 +1,11 @@
+﻿  GameManager.cpp
+C:\Dev\C++\Visual Studio\Personal Project\StarshipExplorer\StarshipExplorer\GameManager.cpp(57,22): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  Renderer.cpp
+C:\Dev\C++\Visual Studio\Personal Project\StarshipExplorer\StarshipExplorer\Renderer.cpp(70,14): warning C4244: '*=': conversion from 'double' to 'int', possible loss of data
+C:\Dev\C++\Visual Studio\Personal Project\StarshipExplorer\StarshipExplorer\Renderer.cpp(70,48): warning C4244: '*=': conversion from 'double' to 'int', possible loss of data
+C:\Dev\C++\Visual Studio\Personal Project\StarshipExplorer\StarshipExplorer\Renderer.cpp(85,13): warning C4244: '*=': conversion from 'double' to 'int', possible loss of data
+C:\Dev\C++\Visual Studio\Personal Project\StarshipExplorer\StarshipExplorer\Renderer.cpp(86,13): warning C4244: '*=': conversion from 'double' to 'int', possible loss of data
+C:\Dev\C++\Visual Studio\Personal Project\StarshipExplorer\StarshipExplorer\Renderer.cpp(105,13): warning C4244: '*=': conversion from 'double' to 'int', possible loss of data
+C:\Dev\C++\Visual Studio\Personal Project\StarshipExplorer\StarshipExplorer\Renderer.cpp(106,13): warning C4244: '*=': conversion from 'double' to 'int', possible loss of data
+  Generating Code...
+  StarshipExplorer.vcxproj -> C:\Dev\C++\Visual Studio\Personal Project\StarshipExplorer\Debug\StarshipExplorer.exe

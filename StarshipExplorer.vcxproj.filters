@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="DLLs">
+      <UniqueIdentifier>{3464f680-eb97-462a-831a-f729c6636042}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SourceFiles">
+      <UniqueIdentifier>{5ad10955-b2c0-46a8-818f-6767772b8044}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SourceFiles\Entity Components">
+      <UniqueIdentifier>{8b2897e0-c909-401c-8072-bea168df7c5f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="assets\gfx\starship.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\gfx\background.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\asteroid.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\gfx\exhaust\1.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\gfx\exhaust\2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\gfx\exhaust\3.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\gfx\exhaust\4.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\gfx\exhaust\turbo1.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\gfx\exhaust\turbo2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\gfx\exhaust\turbo3.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\gfx\exhaust\turbo4.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\gfx\title.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\gfx\dead.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\gfx\asteroid2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\gfx\asteroid1.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="assets\fonts\font.ttf" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="sdl\libfreetype-6.dll" />
+    <None Include="sdl\libpng16-16.dll" />
+    <None Include="sdl\SDL2.dll" />
+    <None Include="sdl\SDL2_image.dll" />
+    <None Include="sdl\SDL2_ttf.dll" />
+    <None Include="sdl\zlib1.dll" />
+    <None Include="libfreetype-6.dll" />
+    <None Include="libpng16-16.dll" />
+    <None Include="SDL2.dll" />
+    <None Include="SDL2_image.dll" />
+    <None Include="SDL2_ttf.dll" />
+    <None Include="zlib1.dll" />
+    <None Include="libogg-0.dll" />
+    <None Include="SDL2_mixer.dll" />
+    <None Include="assets\audio\songs\songs_compressed.zip" />
+    <None Include="assets\audio\songs\songs_uncompressed.zip" />
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="audio\dead.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="audio\start.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="assets\audio\songs\titlescreen.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="assets\audio\songs\main.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Collision.cpp" />
+    <ClCompile Include="Entity.cpp" />
+    <ClCompile Include="EntityManager.cpp" />
+    <ClCompile Include="GameManager.cpp" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Mixer.cpp" />
+    <ClCompile Include="Renderer.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Collision.hpp" />
+    <ClInclude Include="Entity.hpp" />
+    <ClInclude Include="EntityManager.hpp" />
+    <ClInclude Include="Enums.h" />
+    <ClInclude Include="GameManager.hpp" />
+    <ClInclude Include="Mixer.hpp" />
+    <ClInclude Include="Renderer.hpp" />
+  </ItemGroup>
+</Project>
